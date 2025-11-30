@@ -42,7 +42,6 @@ argumenty":
 - `alphabet` - ciąg znakowy z domyślnym alfabetem, kolejność znakó musi odpowiadać kolejnośći znaków w pliku graficznym od lewej do prawej, wiersz po wierszu, domyślny alfabet `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!?",.+-=:;$%&`
 
 ### Pobranie Surface'a z napisem
-Zwraca 
 
 ```python
 getByWidth(
@@ -74,7 +73,7 @@ render(
 argumenty:
 - `message` - tekst do wygenerowania,
 - `pos` - tuple dwóch elementów typu `int` określających położenie powierzchni z tekstem,
-- `align` - tuple dwóch elementów typu `int` określających położenie powierzchni względem argumentu `pos`, domyślnie `( -1, -1 )` gdzie pierwszy element określa wyrównanie w pionie, a drugi w poziomie, wartości domyszczalne: `-1`, `0`, `1`,
+- `align` - tuple dwóch elementów typu `int` określających położenie powierzchni względem argumentu `pos`, domyślnie `( -1, -1 )` gdzie pierwszy element określa wyrównanie w pionie, a drugi w poziomie, wartości dopuszczalne: `-1`, `0`, `1`,
 - `width` - opcjonalny argument, szerokość Surface'a wynikowego z tekstem, domyślnie `0` rozmiar Surface'a tekstu nie będzie ograniczony
 
 <img src="align.png" alt="Położenie powierzhcni" width="300">
